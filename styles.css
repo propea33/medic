@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.calendar {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.day {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.day-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.medication {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.medication.taken {
+    background-color: #d4edda;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #666;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.taken .checkbox {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.time-group {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.time-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+.legend {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.legend-item {
+    margin: 5px 0;
+}
+
+.warning {
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
